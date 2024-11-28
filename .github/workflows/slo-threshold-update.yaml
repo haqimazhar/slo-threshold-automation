@@ -25,11 +25,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Fetch All Branches
-        run: |
-          git fetch --all
-          git branch -a
-
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
