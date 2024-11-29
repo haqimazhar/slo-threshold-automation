@@ -48,6 +48,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: slo-threshold-automation
           branch-suffix: timestamp
+          committer: "haqimazhar <luqman.h@rocketbots.io>"
           reviewers: haqimazhar
           title: "[MASTER]: 🚀 Updated Workflows SLO Latency Thresholds"
           body: |
